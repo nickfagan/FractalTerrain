@@ -19,8 +19,8 @@ FractalTerrain ft;
 
 int moveSpeed	= 5;
 double x_trans	= 0;
-double y_trans	= -100;
-double z_trans	= -400;
+double y_trans	= -50;
+double z_trans	= -100;
 double x_rot	= 20;
 double y_rot	= 0;
 
@@ -122,8 +122,8 @@ void reshape(int w, int h)
 
 int main(int argc, char** argv)
 {
-    int windowWidth		= 800;
-    int windowHeight	= 600;
+    int windowWidth		= 1920;
+    int windowHeight	= 1080;
 	
 	ft.initialize();
 	

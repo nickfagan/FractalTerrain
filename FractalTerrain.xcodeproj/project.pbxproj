@@ -36,7 +36,6 @@
 		51A57FDE1C0506A100B498E4 /* algebra.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = algebra.hpp; sourceTree = "<group>"; };
 		51A57FDF1C0506A100B498E4 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
 		51A57FE01C0506A100B498E4 /* utilities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = utilities.hpp; sourceTree = "<group>"; };
-		51A57FE31C05073000B498E4 /* constants.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = constants.hpp; sourceTree = "<group>"; };
 		51A57FE41C05081100B498E4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		51A57FE61C05095200B498E4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -75,7 +74,6 @@
 		51A57FCB1C05045100B498E4 /* FractalTerrain */ = {
 			isa = PBXGroup;
 			children = (
-				51A57FE31C05073000B498E4 /* constants.hpp */,
 				51A57FDC1C0506A100B498E4 /* misc */,
 				51A57FD31C05049200B498E4 /* fractalterrain.cpp */,
 				51A57FD41C05049200B498E4 /* fractalterrain.hpp */,
@@ -270,6 +268,7 @@
 				51A57FD21C05045100B498E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
