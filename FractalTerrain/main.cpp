@@ -152,7 +152,7 @@ int main(int argc, char** argv)
 	// Initialize lights
 	GLfloat ambient[] = {1.0f, 1.0f, 1.0f, 0.0f};
 	GLfloat light_color[] = {1.0f, 1.0f, 1.0f, 0.0f};
-	GLfloat light_position[] = { 1.0, 1.0, 1.0, 0.0};
+	GLfloat light_position[] = { 100.0, 100.0, 1.0, 0.0};
 	
 	glLightModelfv(GL_LIGHT_MODEL_AMBIENT, ambient);
 	glLightfv(GL_LIGHT0, GL_DIFFUSE, light_color);
